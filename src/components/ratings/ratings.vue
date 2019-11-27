@@ -91,7 +91,7 @@ export default {
           this.ratings = res;
         }),
           () => {
-            console.log("无法获取评价数据");
+            // console.log("无法获取评价数据");
           };
       }
     }

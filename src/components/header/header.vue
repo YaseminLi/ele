@@ -9,7 +9,7 @@
           <span class="brand"></span>
           <span class="name">{{seller.name}}</span>
         </div>
-        <div class="description">{{seller.description}}/{{seller.deliveryTime}}分钟必达</div>
+        <div class="description">{{seller.description}}/{{seller.deliveryTime}}分钟</div>
         <div v-if="seller.supports" class="supports">
           <Support :type="seller.supports[0].type" :size="1"/>
           <span class="text">{{seller.supports[0].description}}</span>
